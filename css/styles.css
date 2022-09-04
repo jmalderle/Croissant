@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #f8e8a6;
+  --secondary-color: cornflowerblue;
+  --tertiary-color: coral;
+}
+
+body {
+  background: var(--primary-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.page-links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+a {
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: var(--tertiary-color);
+}
+
+.link-margins {
+  margin: 10px;
+}
+
+.croissant-photo {
+  max-width: 100%;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+}
